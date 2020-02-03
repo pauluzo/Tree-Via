@@ -36,6 +36,7 @@ class _QuizPageState extends State<QuizPage> {
     super.initState();
   }
 
+// Start the timer to count down every one second
   void startTimer() async {
     const Duration oneSec = Duration(seconds: 1);
     Timer.periodic(oneSec, (Timer t) {
@@ -49,9 +50,7 @@ class _QuizPageState extends State<QuizPage> {
           _timer -= 1;
           _timerDisplay = _timer.toString();
         }
-      setState(() {
-        
-      });
+      setState(() {});
     });
   }
 

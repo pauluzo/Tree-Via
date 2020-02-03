@@ -1,16 +1,11 @@
-# treevia_app
+# Tree-Via App
 
-A new Flutter project.
+## Mobile app built using Flutter.
 
-## Getting Started
+## Use of asynchronous code to handle the timers. 
 
-This project is a starting point for a Flutter application.
+### Please point out any corrections in the code where you deem necessary.
 
-A few resources to get you started if this is your first Flutter project:
+### A demo of this app in action is shown below.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="treevia_app_gif.gif" width="450" height="500" />
