@@ -244,6 +244,7 @@ class _HomeState extends State<Home> {
                       Container(
                         width: 200.0,
                         child: MaterialButton(
+                          key: Key('buttonId'),
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(7.0),
                           ),

@@ -91,7 +91,7 @@ class _ResultPageState extends State<ResultPage> {
                       )
                     );
                   },
-                  child: Text("Continue", style: TextStyle(
+                  child: Text("Continue", key: Key('buttonText'), style: TextStyle(
                     fontSize: 18.0,
                   ),),
                   padding: EdgeInsets.symmetric(
