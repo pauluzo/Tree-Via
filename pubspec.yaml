@@ -26,13 +26,17 @@ dependencies:
   cupertino_icons: ^0.1.2
 
 dev_dependencies:
+  flutter_launcher_icons: ^0.7.3
   flutter_test:
     sdk: flutter
   flutter_driver:
     sdk: flutter
   test: any
 
-
+flutter_icons:
+  android: launcher_icon 
+  ios: true
+  image_path: assets/icon/launcher_icon.png
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
