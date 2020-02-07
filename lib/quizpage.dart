@@ -18,7 +18,7 @@ class _QuizPageState extends State<QuizPage> {
   int _counter = 0;
   int _timer = 20;
   int _correctAnswers = 0;
-  String _timerDisplay = '15';
+  String _timerDisplay = '20';
   bool cancelTimer = false;
   bool isClicked = false;
   List<Color> _btnColors = <Color>[
